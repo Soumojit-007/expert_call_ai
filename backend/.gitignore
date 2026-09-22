@@ -1,0 +1,19 @@
+# Environment
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Chroma
+vectorstore/*
+
+# IDE
+.vscode/
+.idea/
+
+# Frontend later
+node_modules/
+dist/
