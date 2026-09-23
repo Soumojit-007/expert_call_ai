@@ -6,8 +6,8 @@ services:
 
     container_name: expert-call-ai-backend
 
-    env_file:
-      - ./backend/.env
+    environment:
+      GEMINI_API_KEY: ${GEMINI_API_KEY}
 
     ports:
       - "8000:8000"
